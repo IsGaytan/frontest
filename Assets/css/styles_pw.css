@@ -1,0 +1,109 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 22/07/2017, 08:32:39 AM
+    Author     : isgaytans
+*/
+
+.navbar{
+    margin-bottom: 0px;
+    background-color: #e9eaec;
+    border-radius: 0px;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: #2662ba;
+    background-color: #e9eaec;
+    border-bottom-style: solid;
+}
+
+.navbar-brand{ color:#2662ba !important; font-weight: 900}
+
+.nav-tabs{
+    background-color: #2662ba;
+    padding-left: 5%;
+    padding-right: 5%;
+    border:0px solid transparent;
+}
+
+.nav-tabs>li>a{
+    color:white;
+    border:0px solid transparent;
+    border-radius: 0px;
+}
+
+.nav-tabs>li>a:hover{
+    background-color:#3968d4;
+    
+}
+
+.carousel-content {
+    position: absolute;
+    bottom: 40%;
+    left: 15%;
+    right: 15%;
+    z-index: 20;
+    color: white;
+    text-shadow: 0 1px 2px rgba(0,0,0,.6);
+    text-align: center;
+  }
+  
+.carousel-caption{
+    
+    bottom: 50%;
+    
+}
+
+.carousel-caption>p:last-child{
+    color:#56d5ff;
+    margin-top: 5px;
+    font-style: italic;
+    font-weight: 900;
+    font-size: 18px;
+}
+
+#nosotros .col-md-8{
+    text-align: center;
+}
+
+#nosotros .col-md-8>section{
+    padding-top: 50px;
+    padding-bottom: 40px;
+    color: white;
+    background-color: #2662ba;
+}
+
+
+@media (max-width: 841px) { 
+  span.icon {
+    font-size : x-large;
+  }
+  span.text {
+    height   : 1px;
+    width    : 1px;
+    position : absolute;
+    overflow : hidden;
+    top      : -1000px; 
+  }
+  
+  .carousel-content {
+    position: absolute;
+    bottom: 20%;
+    font-size: 12px;
+    left: 15%;
+    right: 15%;
+    z-index: 20;
+    color: white;
+    text-shadow: 0 1px 2px rgba(0,0,0,.6);
+    text-align: center;
+  }
+  
+  .carousel-caption {
+    
+    font-size: 16px;
+    
+  }
+}
